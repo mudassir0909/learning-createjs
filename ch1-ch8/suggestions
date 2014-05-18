@@ -1,0 +1,6 @@
+In the chapter-2 the circle example, make sure the code is inside window.onload, else you might not see the output
+
+Page 16 --> 3rd paras
+Remember that to add events to DisplayObject, we need to add an event listener first and then add displayObject to the stage. Here is the complete source code for our example: BUT I COULD ADD AFTER ADDING OBJECT TO STAGE
+
+Page 28 --> last line --> it should be "we set the y axis to -50px"
