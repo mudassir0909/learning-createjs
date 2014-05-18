@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+		<title>Paint your mind</title>
+		<link rel="stylesheet" type="text/css" href="app.css">
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<h1>Painting</h1>
+
+				<div id="colorPicker" class="pickerDropDown">
+					<span class="hex">Brush Color</span>
+					<span class="fill" style="background-color: #004358;"></span>
+					<div class="sub">
+						<ul>
+							<li>
+								<a href="javascript:void(0);" class="sphexbrushColor" style="background:#FD7400">
+									#FD7400
+								</a>
+							</li>
+							<li>
+				                <a href="javascript:void(0);" class="sphexbrushColor" style="background:#FFE11A;">
+				                      #FFE11A
+				                </a>
+				            </li>
+							<li>
+								<a href="javascript:void(0);" class="sphexbrushColor" style="background:#BEDB39;">
+							        #BEDB39
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="sphexbrushColor" style="background:#1F8A70;">
+							        #1F8A70
+								</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);" class="sphexbrushColor" style="background:#004358;">
+							        #004358
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div id="exportToImage" class="pickerDropDown">
+					<span class="hex">
+						<a href="javascript:void(0)" onclick="exportToImage(this);">Export</a>
+					</span>
+				</div>
+			</div>
+
+			<div id="main">
+				<canvas id="pStage"></canvas>
+			</div>
+		</div>
+
+
+   		<script type='text/javascript' src="http://code.createjs.com/createjs-2013.12.12.min.js"></script>
+   		<script type='text/javascript' src="app.js"></script>
+	</body>
+</html>
